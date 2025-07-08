@@ -2,7 +2,7 @@
 $servername = getenv('MYSQL_HOST') ?: 'db'; // gunakan service name dari docker-compose
 $username = getenv('MYSQL_USER') ?: 'root';
 $password = getenv('MYSQL_PASSWORD') ?: 'root';
-$dbname = getenv('MYSQL_DATABASE') ?: 'uas_2212500272';
+$dbname = getenv('MYSQL_DATABASE') ?: 'uas_2212500926';
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
