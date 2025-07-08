@@ -1,1 +1,2 @@
-projek uas komputasi awan 
+uas komputasi awan 
+FACHRIYAN TAMAM
