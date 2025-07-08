@@ -5,8 +5,8 @@ Script untuk membuat 1 tabel (berisi kolom nim, nama, email)
  */
 
 -- Script untuk membuat database
-CREATE DATABASE IF NOT EXISTS uas_2212500272;
-USE uas_2212500272;
+CREATE DATABASE IF NOT EXISTS uas_2212500926;
+USE uas_2212500926;
 
 -- Script untuk membuat 1 tabel (berisi kolom nim, nama, email)
 CREATE TABLE IF NOT EXISTS mahasiswa (
