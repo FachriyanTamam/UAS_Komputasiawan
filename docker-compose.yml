@@ -6,7 +6,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: uas_2212500272
+      MYSQL_DATABASE: uas_2212500926
     ports:
       - "3306:3306"
     volumes:
@@ -23,7 +23,7 @@ services:
       - MYSQL_HOST=db
       - MYSQL_USER=root
       - MYSQL_PASSWORD=root
-      - MYSQL_DATABASE=uas_2212500272
+      - MYSQL_DATABASE=uas_2212500926
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin_uas
